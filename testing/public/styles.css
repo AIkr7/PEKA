@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
+}
+
+h1 {
+    color: greenyellow;
+}
+
+h2 {
+    color: rgb(43, 43, 43);
+    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+}
+
+h6 {
+    color: rgb(83, 83, 83);
+}
+
+.navbar {
+    background-color: rgba(232, 89, 79, 0.747) !important;
+    height: 60px;
+}
+
+.items {
+    position: relative;
+    padding-right: 55px;
+}
+
+.nav-item {
+    padding: 0 5px;
+    font-size: 1.1em;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+.navbar-brand {
+    font-size: 28px !important;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    color: #f6f6f6 !important;
+    position: relative;
+    padding-left: 35px;
+}
+
+.chart {
+    max-height: 10px;
+}
+
+.pie {
+    position: relative;
+    border-radius: 2%;
+    background-color: #fffdf9;
+    height: 350px;
+    top: 10px;
+    left: 55px;
+    margin-right: 3px;
+    max-width: 520px;
+}
+
+.donut-chart {
+    position: relative;
+    left: -105px;
+    top: -75px;
+}
+
+.shadow {
+    box-shadow: 0 7px 15px 4px #00000015;
+}
+
+.shadow1 {
+    box-shadow: 0 2px 15px 4px rgba(19, 19, 19, 0.089);
+}
+
+.gantt-chart {}
+
+.gantt {
+    border-radius: 2%;
+    background-color: #fffdf9;
+    height: 350px;
+    top: 10px;
+    margin-left: 20px;
+    max-width: 520px;
+}
+
+.overview {
+    position: relative;
+    top: 100 px;
+    height: 180px;
+    max-width: 21%;
+    border-radius: 2%;
+    margin: 2%;
+    margin-top: 1%;
+    background-color: #fffdf9;
+    text-align: center;
+    align-items: center;
+}
+
+.avg {
+    align-items: center;
+    padding: 0;
+}
+
+#chart_div {
+    height: 350px;
+    width: 650px;
+    top: -20px;
+    left: -20px;
+}
+
+.drop {
+    background-color: #fffdf9;
+    position: relative;
+    left: 1100px;
+    top: 30px;
+    margin-bottom: 5px;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.inside {
+    position: relative;
+    top: 50px;
+}
+
+.text-inside {
+    position: relative;
+    top: 50px;
+}
+
+.over {
+    margin-left: 25px;
+}

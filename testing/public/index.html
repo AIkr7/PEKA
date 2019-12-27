@@ -1,0 +1,69 @@
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script type="text/javascript" src="chart.js"></script> -->
+    <script type="text/javascript" src="pie.js"></script>
+    <script type="text/javascript" src="scatter.js"></script>
+    <script type="text/javascript" src="analytics.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Domine|Heebo:900|Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow1">
+        <a class="navbar-brand" href="#">Peka</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto items">
+                <a class="nav-item nav-link active" href="#">Dashboard <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Log Out</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="btn-group">
+        <button type="button" class="drop shadow btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Duration
+          </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Today</a>
+            <a class="dropdown-item" href="#">Last Week</a>
+            <a class="dropdown-item" href="#">Last Month</a>
+        </div>
+    </div>
+
+    <div class="container avg">
+        <h4 class="over">Analytics Overview</h4>
+        <div class="row">
+            <div class="col-sm-3 overview shadow">
+                <h2 class="inside" id="top-reason"></h2>
+                <h6 class="text-inside">Top reason your baby cries</h6>
+            </div>
+            <div class="col-sm-3 overview shadow">
+                <h2 class="inside" id="times-cried"></h2>
+                <h6 class="text-inside">Times your baby has cried today</h6>
+            </div>
+            <div class="col-sm-3 overview shadow">
+                <h2 class="inside">2h</h2>
+                <h6 class="text-inside">Last time your baby was fed</h6>
+            </div>
+            <div class="col-sm-3 overview shadow">
+                <h2 class="inside">15%</h2>
+                <h6 class="text-inside">Less crying than last week</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 gantt shadow">
+                <div class="scatter" id="chart_div"></div>
+            </div>
+            <div class="col-sm-6 pie shadow">
+                <div class="donut-chart" id="donut_single"></div>
+            </div>
+        </div>
+    </div>
+</body>
